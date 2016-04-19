@@ -1,0 +1,23 @@
+{
+  "name": "Automotive-Index",
+  "version": "1.0.0",
+  "description": "### DB Indexing Exercise in PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon -e sql --exec psql -f indexing.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owen28299/Automotive-Index.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owen28299/Automotive-Index/issues"
+  },
+  "homepage": "https://github.com/owen28299/Automotive-Index#readme",
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
